@@ -43,7 +43,8 @@
         },
         "plugin-3": {
             "description": "Yet another example plugin.",
-            "namespace": "lib/plugin/Plugin3"
+            "namespace": "lib/plugins/Plugin3",
+            "class": "simple-plugins-test"
         }
     }
 }
