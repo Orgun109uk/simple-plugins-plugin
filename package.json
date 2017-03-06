@@ -1,0 +1,49 @@
+{
+    "name": "simple-plugins-plugin",
+    "description": "Provides a Simple Plugin example.",
+    "version": "1.0.0",
+    "keywords": [
+        "Simple Plugins Manager",
+        "Example Simple Plugin"
+    ],
+    "main": "index.js",
+    "author": "Orgun109uk <orgun109uk@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Orgun109uk/simple-plugins-plugin.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Orgun109uk/simple-plugins-plugin/issues"
+    },
+    "engines": {
+        "node": ">= 5.3.0"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-eslint": "^19.0.0",
+        "jshint-stylish": "^2.2.1",
+        "load-grunt-tasks": "^3.5.2",
+        "unit.js": "^2.0.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "SimplePlugins": {
+        "plugin-1": {
+            "description": "An example plugin.",
+            "namespace": "lib/Plugin",
+            "weight": -10
+        },
+        "plugin-2": {
+            "description": "Another example plugin.",
+            "namespace": "lib/Plugin2",
+            "weight": 10
+        },
+        "plugin-3": {
+            "description": "Yet another example plugin.",
+            "namespace": "lib/plugin/Plugin3"
+        }
+    }
+}
